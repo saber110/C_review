@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1482492486 source:/home/huhaobin/C/network/main.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<netdb.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	"socket.h"
+
+1482491952 /home/huhaobin/C/network/socket.h
+
+1482493952 source:/home/huhaobin/C/network/socket.c
+	<stdio.h>
+	<sys/types.h>
+	<sys/socket.h>
+	"socket.h"
+

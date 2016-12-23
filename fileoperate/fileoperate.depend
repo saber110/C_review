@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1482413166 source:/home/huhaobin/C/fileoperate/main.c
+	<unistd.h>
+	<stdio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<errno.h>
+	<fcntl.h>
+	<string.h>
+
