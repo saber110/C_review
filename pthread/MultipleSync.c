@@ -47,8 +47,10 @@ void * SetMsg_Func(void * p){
   pthread_exit(0);
 }
 
-void PrintMsg_Func(void){
-  while (count >= 0 ) {
+void PrintMsg_Func(void)
+{
+  while (count >= 0 )
+  {
     pthread_mutex_lock(&mutex);
     printf("%s\n", msg_buff);
     pthread_mutex_unlock(&mutex);
