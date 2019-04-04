@@ -3,7 +3,7 @@
 #define MAXROANUM 10010
 #define STORE 1 
 // if ox7fffffff then OVERFLOW
-#define INF 0x3fffffff
+#define INF 0x7fffffff
 using namespace std;
 
 int main(){
@@ -32,7 +32,7 @@ int main(){
 		for(int k = 1; k <= crossNum; k ++)
 			for(int i = 1; i <= crossNum; i ++)
 				for(int j = 1; j <= crossNum; j ++){
-					if( map[i][k] + map[k][j] < map[i][j])
+					if( map[i][j] - map[k][j] > map[i][k])
 						map[i][j] = map[i][k] + map[k][j];
 				}
 		cout << map[STORE][crossNum] << endl;
